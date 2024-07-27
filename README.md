@@ -1,4 +1,4 @@
-# Comparing Right Shift By One Vs Multiplication By Two
+# Comparing Left Shift By One Vs Multiplication By Two
 
 A best effort empirical comparison of using left shift verses multiplication by two.
 
