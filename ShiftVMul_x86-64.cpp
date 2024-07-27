@@ -25,7 +25,7 @@ inline int shift_by_one(int a) {
 int main() {
     std::vector<int> vec(10'000'000);
 
-    // Fill vec with 1,000,000 random integer values using full range of ints
+    // Fill vec with 10,000,000 random integer values using full range of ints
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dis(std::numeric_limits<int>::min(), std::numeric_limits<int>::max());
